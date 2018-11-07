@@ -47,3 +47,14 @@ if(px<py)
 else
     printf("\n y is less than x");
 ```
+
+Ошибка 4:
+```c
+int* p1 = (int*)malloc(sizeof(int));
+*p1 = 2;
+
+int* p2 = p1;
+*p2 = 3;
+
+free(p1);
+```
