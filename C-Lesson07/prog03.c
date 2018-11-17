@@ -17,4 +17,8 @@ int main()
 	printf("\n Size of long is %zu bytes", size_long);
 	printf("\n Size of float is %zu bytes", size_float);
 	printf("\n Size of double is %ld bytes", size_double);
+	
+	size_t size_ptr = sizeof(char*);
+	printf("\n Size of pointer is %zu bytes", size_ptr);
+	
 }
