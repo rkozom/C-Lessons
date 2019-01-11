@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "inttypes.h": "c",
+        "cinttypes": "c",
+        "cstdint": "c"
+    }
+}
