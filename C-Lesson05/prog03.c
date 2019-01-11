@@ -18,8 +18,8 @@ uint64_t fib(uint32_t n)
 int main()
 {
     uint32_t n;
-    printf("N = ");
+    printf("n = ");
     scanf("%u", &n);
 
-    printf("fib(%u) = %u", n, fib(n));
+    printf("fib(%lu) = %llu", n, fib(n));
 }

@@ -15,7 +15,7 @@ int main()
 {
     uint64_t n;
     printf("N = ");
-    scanf("%ld", &n);
+    scanf("%lu", &n);
 
-    printf("fib(%u) = %u", n, fib(n));
+    printf("fib(%lu) = %llu", n, fib(n));
 }
